@@ -1,0 +1,10 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#FBF5EC"/>
+  <rect x="36" y="36" width="828" height="1128" rx="30" stroke="#C09A71" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="454" cy="356" r="210" fill="#E5D1B7"/>
+  <circle cx="576" cy="302" r="108" fill="#C48E59"/>
+  <circle cx="358" cy="478" r="88" fill="#FFF7EF"/>
+  <path d="M192 804C260 702 350 632 472 626C600 620 696 716 726 824C754 926 702 1036 608 1086C516 1134 388 1136 300 1064C206 988 148 870 192 804Z" fill="#D8B38A"/>
+  <text x="106" y="120" fill="#6E4A2A" font-family="'Manrope', sans-serif" font-size="24" letter-spacing="8">MOBILE TILE</text>
+  <text x="106" y="1020" fill="#4D331E" font-family="'Cormorant Garamond', serif" font-size="82" font-weight="600">Guest photo space</text>
+</svg>

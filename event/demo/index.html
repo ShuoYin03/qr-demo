@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia & Daniel | Event Demo</title>
+  <meta name="description" content="Demo event page opened from a QR code.">
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body class="page-shell event-body">
+  <div class="site-grain" aria-hidden="true"></div>
+  <main class="event-page">
+    <section class="event-hero">
+      <div class="event-hero-copy">
+        <p class="eyebrow">Event page demo</p>
+        <h1>Olivia &amp; Daniel</h1>
+        <p class="event-date">June 21, 2026 · London</p>
+        <p class="lede">
+          Thank you for celebrating with us. This page represents the guest-facing experience a QR
+          code would open directly on mobile.
+        </p>
+
+        <div class="inline-note">
+          <strong>POC scope:</strong> This concept page is intentionally static. Photo uploads,
+          moderation, payments, and accounts are not implemented in this demo.
+        </div>
+
+        <div class="cta-row">
+          <a class="button button-primary" href="../../index.html">Back to QR</a>
+          <button class="button button-secondary" type="button" data-copy-link>Copy page link</button>
+        </div>
+        <p class="copy-feedback" aria-live="polite" data-copy-feedback></p>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          src="../../assets/images/event-hero.svg"
+          alt="Elegant abstract floral cover art for the event"
+          width="1200"
+          height="1500"
+        >
+      </div>
+    </section>
+
+    <section class="gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <p class="eyebrow">Preview gallery</p>
+        <h2 id="gallery-title">A simple, polished guest-facing layout</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-card gallery-card-large">
+          <img
+            src="../../assets/images/gallery-01.svg"
+            alt="Table setting inspired editorial placeholder image"
+            width="1200"
+            height="900"
+          >
+          <figcaption>Hero image placement for the event story.</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img
+            src="../../assets/images/gallery-02.svg"
+            alt="Celebration-inspired editorial placeholder image"
+            width="900"
+            height="1200"
+          >
+          <figcaption>Guest gallery tiles can live below the fold.</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img
+            src="../../assets/images/gallery-03.svg"
+            alt="Floral detail placeholder image"
+            width="900"
+            height="1200"
+          >
+          <figcaption>Designed to feel premium on phones first.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <script src="../../assets/js/main.js" defer></script>
+</body>
+</html>

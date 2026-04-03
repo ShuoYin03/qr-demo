@@ -1,0 +1,10 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#F8F0E4"/>
+  <rect x="36" y="36" width="828" height="1128" rx="30" stroke="#B68A5C" stroke-opacity="0.48" stroke-width="2"/>
+  <path d="M150 940C214 742 300 620 442 540C562 474 704 456 784 566C862 674 826 854 716 976C634 1068 508 1130 386 1110C234 1086 104 1082 150 940Z" fill="#E7D3BD"/>
+  <path d="M272 274C320 218 402 190 484 202C564 212 638 256 674 326C710 398 700 500 626 540C560 578 474 560 404 518C314 466 212 344 272 274Z" fill="#C89460"/>
+  <circle cx="668" cy="280" r="86" fill="#FDF6EF"/>
+  <circle cx="300" cy="404" r="52" fill="#F4E5D4"/>
+  <text x="104" y="120" fill="#6E4A2A" font-family="'Manrope', sans-serif" font-size="24" letter-spacing="8">DETAIL TILE</text>
+  <text x="104" y="1026" fill="#4D331E" font-family="'Cormorant Garamond', serif" font-size="82" font-weight="600">Editorial flourish</text>
+</svg>

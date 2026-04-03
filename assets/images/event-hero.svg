@@ -1,0 +1,28 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#F7EFE4"/>
+  <rect x="58" y="58" width="1084" height="1384" rx="46" stroke="#B7966E" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="962" cy="268" r="232" fill="url(#paint0_radial)"/>
+  <circle cx="284" cy="1190" r="260" fill="url(#paint1_radial)"/>
+  <path d="M92 1024C230 910 350 872 516 910C684 950 760 1128 946 1140C1024 1144 1095 1122 1144 1094V1444H92V1024Z" fill="#E5D2BB"/>
+  <path d="M294 888C353 734 452 618 596 560C706 514 860 514 932 646C1002 774 958 938 850 1022C726 1116 534 1132 408 1048C302 978 252 846 294 888Z" fill="#DDBF97"/>
+  <path d="M640 450C658 382 710 312 798 280C884 248 980 278 1016 340C1058 414 1048 504 986 560C924 618 832 648 750 622C674 598 622 520 640 450Z" fill="#C89B68"/>
+  <path d="M242 276C318 242 392 248 448 294C510 344 542 426 516 500C490 570 430 624 350 646C268 668 168 646 128 572C90 504 108 428 156 364C178 334 206 302 242 276Z" fill="#EBD8BF"/>
+  <path d="M404 318C454 336 494 382 498 436C504 494 470 548 416 568C368 586 308 574 264 538C214 496 184 432 206 378C232 314 328 290 404 318Z" fill="#B07F4C"/>
+  <path d="M830 732C890 694 980 700 1034 754C1096 814 1114 914 1072 988C1030 1054 948 1094 870 1078C780 1060 714 974 718 884C720 816 768 770 830 732Z" fill="#F4E5D3"/>
+  <path d="M482 171L512 227L574 238L528 281L540 344L482 314L424 344L436 281L390 238L452 227L482 171Z" fill="#8B5E34"/>
+  <path d="M894 102L914 140L956 146L926 176L934 218L894 198L854 218L862 176L832 146L874 140L894 102Z" fill="#8B5E34"/>
+  <path d="M242 836L262 874L304 880L274 910L282 952L242 932L202 952L210 910L180 880L222 874L242 836Z" fill="#8B5E34"/>
+  <text x="124" y="182" fill="#6E4A2A" font-family="'Cormorant Garamond', serif" font-size="72" letter-spacing="3">EVENT DEMO</text>
+  <text x="124" y="1272" fill="#432B18" font-family="'Cormorant Garamond', serif" font-size="136" font-weight="600">Olivia &amp; Daniel</text>
+  <text x="124" y="1342" fill="#6E4A2A" font-family="'Manrope', sans-serif" font-size="32" letter-spacing="6">JUNE 21, 2026 · LONDON</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(962 268) rotate(90) scale(232)">
+      <stop stop-color="#FCF6EF"/>
+      <stop offset="1" stop-color="#FCF6EF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284 1190) rotate(90) scale(260)">
+      <stop stop-color="#ECDCC7"/>
+      <stop offset="1" stop-color="#ECDCC7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

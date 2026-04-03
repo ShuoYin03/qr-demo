@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event QR Demo</title>
+  <meta name="description" content="Static event QR demo for a shareable event page proof of concept.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="page-shell">
+  <div class="site-grain" aria-hidden="true"></div>
+  <main class="landing-page">
+    <section class="hero-card">
+      <p class="eyebrow">Static proof of concept</p>
+      <h1>Scan once. Open the event instantly.</h1>
+      <p class="lede">
+        A lightweight demo showing the core experience: one polished event page and one QR code
+        that sends guests there directly.
+      </p>
+
+      <div class="event-summary">
+        <div>
+          <span class="summary-label">Event</span>
+          <strong>Olivia &amp; Daniel</strong>
+        </div>
+        <div>
+          <span class="summary-label">Date</span>
+          <strong>June 21, 2026</strong>
+        </div>
+        <div>
+          <span class="summary-label">Message</span>
+          <strong>Celebrate, scan, and view the page.</strong>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a class="button button-primary" href="event/demo/">Open Demo Event</a>
+        <a class="button button-secondary" href="assets/images/qr-event-demo.png" download>Download QR PNG</a>
+      </div>
+    </section>
+
+    <section class="qr-panel" aria-labelledby="qr-heading">
+      <div class="qr-frame">
+        <img
+          src="assets/images/qr-event-demo.png"
+          alt="QR code that opens the demo event page"
+          width="1400"
+          height="1400"
+        >
+      </div>
+
+      <div class="qr-copy">
+        <p class="eyebrow" id="qr-heading">QR destination</p>
+        <p class="destination-text">https://your-project.vercel.app/event/demo/</p>
+        <p class="supporting-text">
+          This PNG is generated in advance so you can send it to a client or place it on a print
+          mockup. After deployment, regenerate the QR with your real Vercel domain.
+        </p>
+        <ul class="feature-list">
+          <li>High-resolution PNG asset</li>
+          <li>Mobile-first event page</li>
+          <li>Zero backend or setup needed for the demo</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+
