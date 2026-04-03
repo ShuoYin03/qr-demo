@@ -211,11 +211,23 @@ figcaption {
 
 .qr-frame {
   position: relative;
+  display: grid;
+  place-items: center;
+  width: min(100%, 420px);
+  margin: 0 auto;
   padding: 18px;
   border-radius: var(--radius-lg);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(252, 246, 240, 1));
   border: 1px solid rgba(95, 65, 32, 0.12);
+}
+
+.qr-frame img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 
 .qr-frame::after {
@@ -424,4 +436,5 @@ figcaption {
     transform: translateY(0);
   }
 }
+
 

@@ -8,7 +8,7 @@ Static proof of concept for a guest-facing event page opened from a QR code.
 - `event/demo/index.html`: public event page
 - `assets/css/styles.css`: shared styles
 - `assets/js/main.js`: lightweight interactions
-- `assets/images/qr-event-demo.png`: high-resolution QR asset
+- `assets/images/qr-event-demo-live.png`: high-resolution QR asset
 
 ## Deploy to Vercel
 
@@ -31,7 +31,7 @@ If you move the demo to a different domain later, regenerate the PNG with the ne
 From this folder:
 
 ```powershell
-py -3 -c "import qrcode; from qrcode.constants import ERROR_CORRECT_H; url='https://qr-demo-orpin.vercel.app/event/demo/'; img=qrcode.QRCode(version=None,error_correction=ERROR_CORRECT_H,box_size=30,border=6); img.add_data(url); img.make(fit=True); qr=img.make_image(fill_color='black',back_color='white'); qr.save('assets/images/qr-event-demo.png')"
+py -3 -c "import qrcode; from qrcode.constants import ERROR_CORRECT_H; url='https://qr-demo-orpin.vercel.app/event/demo/'; img=qrcode.QRCode(version=None,error_correction=ERROR_CORRECT_H,box_size=30,border=6); img.add_data(url); img.make(fit=True); qr=img.make_image(fill_color='black',back_color='white'); qr.save('assets/images/qr-event-demo-live.png')"
 ```
 
 ## Scope
@@ -44,5 +44,6 @@ This POC intentionally does not implement:
 - payments
 - admin tools
 - backend services
+
 
 
